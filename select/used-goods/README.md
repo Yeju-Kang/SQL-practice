@@ -28,8 +28,3 @@ WHERE r.CREATED_DATE >= '2022-10-01'
   AND r.CREATED_DATE <  '2022-11-01'
 ORDER BY r.CREATED_DATE ASC, b.TITLE ASC;
 ```
-
-## 비고
-
-- 필터는 **댓글 날짜(`r.CREATED_DATE`)** 를 기준으로 해야 요구 사항과 일치합니다.
-- MySQL 기준 예시입니다. (다른 DB는 날짜 포맷 함수가 다를 수 있음)
